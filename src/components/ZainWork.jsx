@@ -6,6 +6,7 @@ const ZainWork = () => {
     <div>
         Search:<input type='search' onChange={(e)=>setText(e.target.value)}></input>
         <h1>{text}</h1>
+        <p>Codding </p>
     </div>
   )
 }
